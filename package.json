@@ -1,0 +1,24 @@
+{
+  "name": "RentBYKs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-scss": "node-sass src/scss/main.scss src/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanSAGA/RentBYKs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanSAGA/RentBYKs/issues"
+  },
+  "homepage": "https://github.com/devanSAGA/RentBYKs#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

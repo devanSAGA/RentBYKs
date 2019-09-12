@@ -1,0 +1,31 @@
+@keyframes moveInLeft {
+  /*Start of the animation*/
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  /*End of the animation*/
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  /*Start of the animation*/
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  /*End of the animation*/
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
