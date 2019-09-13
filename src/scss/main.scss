@@ -1,4 +1,16 @@
+//Import Basic Settings and Animations
 @import "base/base";
 @import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+
+//Import Components
 @import "components/button";
 @import "components/header";
+@import "components/grid";
+@import "components/image-group";
+@import "components/feature-box";
+@import "components/card";
+
+//Import Pages
+@import "pages/homepage";

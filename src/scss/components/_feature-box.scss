@@ -1,0 +1,26 @@
+.feature-box {
+  background-color: #f2f6f5;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+  border-radius: 5px;
+  height: 25rem;
+
+  &--icon {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  &--heading {
+    font-size: 2rem;
+  }
+
+  &--text {
+    font-size: 1.6rem;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

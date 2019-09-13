@@ -30,21 +30,3 @@
 .logo {
   height: 3.5rem;
 }
-
-.heading {
-  color: #f2f6f5;
-  backface-visibility: hidden;
-
-  &--main {
-    font-size: 6rem;
-    display: block;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-  }
-  &--sub {
-    font-size: 3.2rem;
-    display: block;
-    animation: moveInRight 1s ease-out;
-  }
-}

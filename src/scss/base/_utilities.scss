@@ -1,0 +1,31 @@
+.util-center-text {
+  text-align: center;
+}
+
+.util-margin-bottom-s {
+  margin-bottom: 2rem;
+}
+
+.util-margin-bottom-m {
+  margin-bottom: 4rem;
+}
+
+.util-margin-bottom-l {
+  margin-bottom: 8rem;
+}
+
+.util-bold {
+  font-weight: bold;
+}
+
+.util-italic {
+  font-style: italic;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
