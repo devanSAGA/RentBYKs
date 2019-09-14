@@ -7,11 +7,6 @@
 
 .features-section {
   padding: 20rem 0;
-  // background-image: linear-gradient(
-  //   to right bottom,
-  //   rgb(99, 112, 126),
-  //   rgb(200, 218, 211)
-  // );
   background-color: $off-white;
   transform: skewY(-5deg);
   margin-top: -8.5rem;
@@ -23,4 +18,9 @@
 .plans-section {
   @extend .about-section;
   padding-top: 30rem;
+}
+
+.testimonials-section {
+  padding: 10rem 20rem;
+  background-color: $off-white;
 }

@@ -1,0 +1,39 @@
+.testimonial {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  background-color: $off-white-light;
+  padding: 6rem;
+  padding-left: 9rem;
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  transform: skewX(-12deg);
+  @include clearfix;
+
+  &__shape {
+    width: 13rem;
+    height: 13rem;
+    float: left;
+    display: block;
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+  }
+
+  &__image {
+    height: 100%;
+  }
+
+  &__text {
+    transform: skewX(12deg);
+
+    &--heading {
+      font-size: 2.4rem;
+    }
+    &--details {
+      font-size: 1.6rem;
+    }
+  }
+}
